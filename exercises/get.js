@@ -9,13 +9,14 @@
 
 // Provided code:
 const sourceObject = {
-  num: 42,
-  bool: true,
-  str: 'some text',
-  log: console.log,
+    num: 42,
+    bool: true,
+    str: 'some text',
+    log: console.log,
 };
 
 // Your code:
+const get = (key) => sourceObject[key];
 
 //* Begin of tests
 const assert = require('assert');
